@@ -10,7 +10,13 @@ function myFunction() {
   document.getElementById("demo").innerHTML = "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.";
 }
 
-// change background color to lime:
+// change background color to lightblue:
 function changeBodyBg(color){
-  document.body.style.backgroundColor = "lime";
+  document.body.style.backgroundColor = "lightblue";
 }
+
+// addEventListener
+document.addEventListener("click", function(){
+  document.getElementById("myBtn");
+  alert ("Hello!")
+});
