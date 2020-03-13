@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My Webpage, With JavaScript">
+    <meta name="keywords" content="JavaScript">
+    <meta name="author" content="Sahana Lawrence">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage, With JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <div>
+      <button id="body" onclick="changeBodyBg(color);">Change Background Color to Lime!</button>
+    </div>
+    <div>
+      <h2>Second Day of JavaScript!</h2>
+      <p id="demo">A Paragraph</p>
+      <button onclick="myFunction()">Click Me!</button>
+      <br>
+      <p id="color" onclick="changeColor()">Click me to change my text color.</p>
+      <br>
+      <button onclick="document.getElementById('img').src='./images/castle.jpg'">Castle 1</button>
+      <img id="img" src="./images/grass.jpg">
+      <button onclick="document.getElementById('img').src='./images/castle2.jpg'">Castle 2</button>
+    </div>
+    <br>
+    <br>
+    <div id="hideaway">I've been found...</div>
+    <br>
+    <button onclick="document.getElementById('hideaway').style.display='block';">Hidden Content</button>
+    <button onclick="document.getElementById('hideaway').style.display='none';">Hide content again</button>
+  </body>
+</html>
