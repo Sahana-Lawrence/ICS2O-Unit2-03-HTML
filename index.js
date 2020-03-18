@@ -17,6 +17,6 @@ function changeBodyBg(color){
 
 // addEventListener
 document.addEventListener("click", function(){
-  document.getElementById("myBtn");
+  document.getElementById("button");
   alert ("Hello!")
 });
